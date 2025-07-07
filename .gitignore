@@ -194,3 +194,11 @@ cython_debug/
 .cursorindexingignore
 
 .DS_Store
+
+# Ignore YOLO model weights
+best.pt
+last.pt
+yolov8s.pt
+
+# Ignore output videos directory
+/output_videos/

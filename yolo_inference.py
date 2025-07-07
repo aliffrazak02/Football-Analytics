@@ -1,6 +1,6 @@
 from ultralytics import YOLO # Import the YOLO class from the Ultralytics library
 # Load the pretrained YOLOv8 small model (yolov8s)
-model = YOLO("yolov8s") 
+model = YOLO("models/best.pt")  # Load the model from a specified path
 
 # Run inference on the input video
 # - save=True: save the output video with detection overlays
