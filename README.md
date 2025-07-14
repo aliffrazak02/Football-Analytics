@@ -7,26 +7,26 @@ A computer vision-powered project for analyzing football (soccer) matches from v
 ---
 #### 🎯 Core Features
 
-* [*] Player detection
-* [*] Ball detection
-* [*] Player and ball tracking
-* [ ] Team classification (e.g., jersey color clustering or ML model)
+* [x] Player detection
+* [x] Ball detection
+* [x] Player and ball tracking
+* [ ] Team classification (e.g., jersey colour clustering or ML model)
 * [ ] Event detection (pass, shot, goal)
 * [ ] Heatmap generation (player movement, ball zones)
 * [ ] Data export (CSV / JSON / visual overlays)
 
 #### 🧠 AI / ML Models
 
-* [*] Train or fine-tune object detection model (YOLOv8, Detectron2, etc.)
+* [x] Train or fine-tune object detection model (YOLOv8, Detectron2, etc.)
 * [ ] Evaluate tracking accuracy (IoU, MOTA)
-* [ ] (Optional) Integrate pose estimation model
+* [ ] (Optional) Integrate the pose estimation model
 
 #### 📊 Visualization & Analytics
 
-* [*] Overlay bounding boxes and IDs on video
+* [x] Overlay bounding boxes and IDs on video
 * [ ] Generate player heatmaps
 * [ ] Create possession and pass networks
-* [ ] Create performance stats dashboard or report
+* [ ] Create a performance stats dashboard or report
 ---
 
 ### ✉️ Contact
