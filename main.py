@@ -11,7 +11,7 @@ def main():
     tracks = tracker.get_object_tracks(video_frames,
                                        read_from_stub=True,
                                        stub_path="stubs/track_stubs.pkl")
-    
+
     # Draw annotations on video frames
     # Draw object tracks
     output_video_frames = tracker.draw_annotation(video_frames, tracks)
